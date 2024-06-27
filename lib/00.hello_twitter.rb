@@ -1,6 +1,6 @@
 require 'twitter'
 
-# Remplacez ces valeurs par vos propres clés d'API Twitter
+# Clés d'API Twitter
 client = Twitter::REST::Client.new do |config|
   config.consumer_key        = 'OY3RixWdwtO1PXkrHrazDISPr'
   config.consumer_secret     = 'znFywnZtDihXxqO5U6wxBmBcHKifozqfxUlMugvmpsFCeeG5Sa'
