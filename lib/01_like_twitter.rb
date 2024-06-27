@@ -1,11 +1,11 @@
 require 'twitter'
 
-# Remplacez ces valeurs par vos propres clés d'API Twitter
+# Clés d'API Twitter
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key        = 'YOUR_CONSUMER_KEY'
-  config.consumer_secret     = 'YOUR_CONSUMER_SECRET'
-  config.access_token        = 'YOUR_ACCESS_TOKEN'
-  config.access_token_secret = 'YOUR_ACCESS_TOKEN_SECRET'
+  config.consumer_key        = 'OY3RixWdwtO1PXkrHrazDISPr'
+  config.consumer_secret     = 'znFywnZtDihXxqO5U6wxBmBcHKifozqfxUlMugvmpsFCeeG5Sa'
+  config.access_token        = '790293889949298688-L34gs4qQIWAVQ8ojbnPSCkMIYkZQZIW'
+  config.access_token_secret = 'niUmgGbi1bM7Cnb1fdN0HdU4Qbn4t26xE5LIwZpn42P2c'
 end
 
 # Recherche des tweets avec le hashtag #hello_world
